@@ -118,7 +118,7 @@ Normalize our dataset.
 
 <H3>Program:</H3> 
 
-```
+```python
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
@@ -164,7 +164,7 @@ print(classification_report(y_test,predictions))
 
 <H3>Program:</H3>
 
-```
+```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
